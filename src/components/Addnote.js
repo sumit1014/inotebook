@@ -18,7 +18,7 @@ const Addnote = (props) => {
   return (
     <>
     <div className="d-flex justify-content-center addbutton">  
-        <button type="button"  className="btn btn-danger w-75 my-5 shadow" data-bs-toggle="modal" data-bs-target="#addModel">
+        <button type="button"  className="btn btn-outline-dark w-75 my-5 shadow" data-bs-toggle="modal" data-bs-target="#addModel">
         Click here to add new a note...
         </button>
     </div>
