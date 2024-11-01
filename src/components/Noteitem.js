@@ -10,7 +10,7 @@ const Noteitem = (props) => {
     <div className="card border-dark mb-3">
         <div className="card-header bg-warning">
             <div className="row">
-                <div className="col-md-10"><strong>{note.title}</strong></div>
+                <div className="col-md-10"><strong>{note.title}</strong><span className="badge text-bg-secondary mx-2">{note.tag}</span></div>
                 <div className="col-md-1"> <i className="bi bi-trash-fill mx-2" onClick={()=>{deleteNote(note._id);props.showAlert("deleted successfully","success");}}></i></div>
                 <div className="col-md-1"><i className="bi bi-pencil-square" onClick={()=>{updateNote(note)}}></i></div>
             </div>
